@@ -65,7 +65,7 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-  { cpu_perc,            "[  %s%%]  ",       NULL},
+  { cpu_perc,            " [  %s%%]  ",       NULL},
   { ram_used,            "[  %s]  ",         NULL},
   { run_command, "[  %s]  ", "pacman -Q | wc -l" },
   { run_command, "[  %s]  ", "pactl list sinks | grep 'Volume:' | awk '{print $5}' | sed 's/%//' | head -n 1", },
