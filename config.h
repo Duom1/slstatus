@@ -70,6 +70,6 @@ static const struct arg args[] = {
   { run_command, "[  %s] ", "pacman -Q | wc -l" },
   { run_command, "[%s] ", "~/dotfiles/get-volume.sh", },
   { keyboard_indicators, "[  %s] ",         "cn"},
-	{ battery_perc,        "[  %s%%] ",       "BAT0"       },
+	/* { battery_perc,        "[  %s%%] ",       "BAT0"       }, */
 	{ datetime,            "[󰸘  %s] ",          "%F %T"      },
 };
